@@ -1,0 +1,5 @@
+Default props:
+--------------
+defaultProps is a property in React Component used to set default values for the props.
+This is similar to adding default parameters to the function.
+=====================

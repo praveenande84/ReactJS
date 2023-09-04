@@ -1,0 +1,1 @@
+npm install jquery@3 popper.js@1 bootstrap@4 font-awesome@4 --save

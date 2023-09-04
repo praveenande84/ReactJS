@@ -1,0 +1,24 @@
+Component Life Cycle Phases:
+======================================
+Mounting Phase :
+
+In this phase, the instance of a component is created and inserted into the DOM.
+
+We use 3 methods  
+1) constructor() => It is used to setup the initial state and class variables.
+2) render() => It is used to return the JSX that is displayed in the UI.
+3) componentDidMount() => It is used to run statements that require that the component is already placed in the DOM.
+---------------------------------------
+Updating Phase :
+In this phase, the component is updated whenever there is a change in the component's state.
+
+The render() method is called whenever there is a change in the component's state.
+---------------------------------------
+Unmounting Phase :
+
+In this phase, the component instance is removed from the DOM.
+
+The componentWillUnmount() method is used to cleanup activities performed.
+Ex : clearing timers, cancelling API calls
+
+=========================================================

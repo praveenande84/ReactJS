@@ -1,0 +1,14 @@
+ Class component
+=======================================
+These components are built using an ES6 class.
+--------------------
+step1 :
+Create an ES6 class that extends React.Component.
+The extends keyword is used to inherit methods and properties from the React.Component.
+-------------------
+step2 :
+Add a single empty method to it called render()
+The render() method is the only required method in a class component. It returns the JSX element.
+=====================================
+
+

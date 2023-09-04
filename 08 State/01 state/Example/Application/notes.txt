@@ -1,0 +1,5 @@
+state:
+------
+The state is a JS object in which we store the component's data that changes over time.
+When the state object changes, the component re-renders.
+==========

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--React JS CDN Files-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!--babel CDN File-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!--Custom CSS Files-->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- JSX syntax -->
+<!--
+React JS introduced a new HTML like syntax named JSX to create elements.
+JSX is not JavaScript. We have to convert it to JavaScript using a code compiler. Babel is one such tool.
+It is a JavaScript compiler that translates JSX into regular JavaScript.
+For JSX, the type attribute value of the HTML script element should be text/babel.
+-->
+<script type="text/babel">
+
+    // what to render
+    const element = <h1 className="greeting">Hello world</h1>;
+
+    // where to render
+    const rootElement = document.getElementById("root");
+
+    // ReactDOM.render(what, where);
+    ReactDOM.render(element, rootElement);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.signup-container{
+    border: 20px yellow solid;
+    height: 95vh;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

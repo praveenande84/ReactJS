@@ -1,0 +1,56 @@
+Table follower {
+  follower_id INTEGER [PK]
+  follower_user_id INT
+  following_user_id INT
+}
+
+Table like {
+  like_id INTEGER [PK]
+  tweet_id INTEGER
+  user_id INTEGER
+  date_time DATETIME
+}
+
+Table reply {
+  reply_id INTEGER [PK]
+  tweet_id INTEGER
+  reply INTEGER
+  user_id INTEGER
+  date_time DATETIME
+}
+
+Table tweet {
+  tweet_id INTEGER [PK]
+  tweet TEXT
+  user_id INTEGER
+  date_time DATETIME
+}
+
+Table user {
+  user_id INTEGER [PK]
+  tweet TEXT
+  name TEXT
+  username TEXT
+  password TEXT
+  gender TEXT
+}
+
+
+
+Ref: follower.follower_user_id < user.user_id
+Ref: follower.following_user_id < user.user_id
+
+Ref: like.user_id > user.user_id
+Ref: like.tweet_id > tweet.tweet_id
+
+
+Ref: reply.user_id > user.user_id
+Ref: reply.tweet_id > tweet.tweet_id
+
+
+Ref: tweet.user_id > user.user_id
+
+
+
+
+

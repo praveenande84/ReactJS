@@ -1,0 +1,13 @@
+.welcome-component{
+    border: 20px greenyellow solid;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counting{
+    font-size: 100px;
+}
+

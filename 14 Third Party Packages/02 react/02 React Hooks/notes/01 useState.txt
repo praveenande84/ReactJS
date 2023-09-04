@@ -1,0 +1,6 @@
+useState : Hook that lets you to use state in a functional component.
+-----
+syntax:
+------------
+let [property, setProperty] = useState(defaultValue);
+========

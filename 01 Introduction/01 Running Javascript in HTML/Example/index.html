@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--Custom CSS Files-->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- Running Javascript in HTML -->
+<!--
+We can run JavaScript in HTML using the HTML script element. It is used to include JavaScript in HTML.
+Here the type attribute specifies the type of the script.
+-->
+<script type="text/javascript">
+    const rootElement = document.getElementById("root");
+    const element = document.createElement("h1");
+    element.textContent = "Hello World!";
+    element.classList.add("greeting");
+    rootElement.appendChild(element);
+</script>
+</body>
+</html>

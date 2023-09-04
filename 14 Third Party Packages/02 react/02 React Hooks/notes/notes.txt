@@ -1,0 +1,17 @@
+React Hooks:
+Hooks are functions that lets you to use state, props and lifecycle methods in a functional component -> without writting a class.
+------------
+useState
+useEffect
+useCallback
+useReducer
+useContext
+useRef
+useMemo
+===============
+useState : Hook that lets you to use state in a functional component.
+-----------
+useEffect : Hook that lets you to execute functions much like lifecycle methods in functional components.
+------------
+useContext : context provides a way to pass data through the component tree without having to pass props down manually at every level.
+----------------

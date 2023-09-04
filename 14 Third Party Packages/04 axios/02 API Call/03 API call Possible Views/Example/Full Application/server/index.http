@@ -1,0 +1,71 @@
+
+### Home
+GET http://localhost:5000/
+
+
+### Registration
+POST http://localhost:5000/register/
+Content-Type: application/json
+
+{
+  "username": "praveen1234567",
+  "password": "praveen1234567",
+  "name": "Sunny Leone",
+  "gender": "Female"
+}
+
+### Login
+POST http://localhost:5000/login/
+Content-Type: application/json
+
+{
+  "username":"praveen1234567",
+  "password":"praveen1234567"
+}
+
+### Latest Tweets
+GET http://localhost:5000/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+### User Following People
+GET http://localhost:5000/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+
+### User Followers
+GET http://localhost:5000/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+### Get Single Tweet
+GET http://localhost:5000/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+
+### Get Tweet Liked Users
+GET http://localhost:5000/tweets/2/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODEwODUzfQ.ajfljVLPjiyNHOqyVsYL-GOWGPIOvD2Q4CvDc7bGeXQ
+
+
+### Get Tweet Replies
+GET http://localhost:5000/tweets/2/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODc0OTgzfQ.-hPfeArx84EyOZeD9bqE-mVuhhWfDYQ1jBXB3ZAxDrQ
+
+### Get User All Tweets
+GET http://localhost:5000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InByYXZlZW4xMjM0NTY3IiwiaWF0IjoxNjg5NTE1MTY0fQ.9sElOXSmjUsZmwi2eAqNULFX1XCD3KPfmtUFYOaIc2o
+
+### Create Tweet
+POST http://localhost:5000/user/tweets/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InByYXZlZW4xMjM0NTY3IiwiaWF0IjoxNjg5NTE1MTY0fQ.9sElOXSmjUsZmwi2eAqNULFX1XCD3KPfmtUFYOaIc2o
+
+{
+   "tweet": "Sorry Guys..."
+}
+
+
+### Delete Single Tweet
+DELETE http://localhost:5000/tweets/3/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjg4ODc0OTgzfQ.-hPfeArx84EyOZeD9bqE-mVuhhWfDYQ1jBXB3ZAxDrQ
+
+

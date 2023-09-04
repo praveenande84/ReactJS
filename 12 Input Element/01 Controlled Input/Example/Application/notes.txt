@@ -1,0 +1,5 @@
+
+cntrolled input:
+-------------------
+If the Input Element value is handled by a React State then it is called Controlled Input
+=============

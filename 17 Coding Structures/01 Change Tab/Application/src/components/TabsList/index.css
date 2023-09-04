@@ -1,0 +1,7 @@
+.tabs-list-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}

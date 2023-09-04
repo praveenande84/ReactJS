@@ -1,0 +1,5 @@
+uncontrolled input:
+----------------------
+If the Input Element value is handled by the browser itself then it is called Uncontrolled Input.
+Its value can only be set by a user, but not programmatically.
+===================

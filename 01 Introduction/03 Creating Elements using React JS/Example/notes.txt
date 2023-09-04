@@ -1,0 +1,24 @@
+
+React.createElement() 
+----------------------
+React.createElement() method used to create an element using React JS.
+It is similar to the document.createElement() method in regular Javascript.
+-----------------------
+React.createElement(type, props);
+
+type => tag names => h1, div
+props => properties => className, onClick, id 
+
+props are shorthand for properties. It is an optional argument.
+================================
+ReactDOM.render()
+-----------------
+ReactDOM.render() method is used to display the React element
+------------------------
+ReactDOM.render(reactElement, container);
+
+reactElement => What to render 
+container => where to render
+====================================
+
+

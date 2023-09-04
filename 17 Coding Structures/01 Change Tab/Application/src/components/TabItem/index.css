@@ -1,0 +1,17 @@
+.tab-item-container{
+    margin: 10px;
+}
+
+.tab-button{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.active-tab-button{
+    background-color: greenyellow;
+}

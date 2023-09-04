@@ -1,0 +1,23 @@
+.button{
+    width:100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.video-player-component{
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container{
+    text-align: center;
+}

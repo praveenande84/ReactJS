@@ -1,0 +1,8 @@
+UUID (Universally Unique IDentifier)
+
+Using the UUID package, we can generate a unique id
+------------------------
+installation:
+----------------
+npm install uuid
+=================

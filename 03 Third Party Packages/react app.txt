@@ -1,0 +1,11 @@
+react app:
+-------------
+Creating a real-world app involves lot of setup because a large number of components need to be organised.
+Facebook has created a third-party package.
+----------------
+create-react-app to generate a ready-made React application setup.
+=============
+command:
+-------------
+npm install -g create-react-app
+==========================

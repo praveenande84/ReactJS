@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--React JS CDN Files-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!--Custom CSS Files-->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- Running ReactJS in HTML -->
+<!--
+We can run React JS in HTML using the HTML script element.
+Here the type attribute specifies the type of the script.
+The type attribute value of the HTML script element should be module to run React JS.
+-->
+<script type="module">
+
+    // what to render
+    const elementType = "h1";
+    const elementProps = {className:"greeting", children:"Hello World"};
+    const element = React.createElement(elementType, elementProps);
+
+    // where to render
+    const rootElement = document.getElementById("root");
+
+    // ReactDOM.render(what, where);
+    ReactDOM.render(element, rootElement);
+
+</script>
+</body>
+</html>

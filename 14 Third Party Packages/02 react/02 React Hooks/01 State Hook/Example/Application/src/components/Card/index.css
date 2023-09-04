@@ -1,0 +1,17 @@
+.card-component{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    background-color: yellowgreen;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

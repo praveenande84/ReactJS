@@ -1,0 +1,8 @@
+keys:
+------
+keys help React to identify which items have changed, added, or removed.
+They should be given to the elements inside the array for a stable identity.
+----------------
+The best way to pick a key is to use a string that uniquely identifies a list item among its siblings.
+Most often, we would use IDs (uniqueNo) from our data as keys.
+=======================

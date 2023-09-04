@@ -1,0 +1,12 @@
+.app-component{
+    border: 20px green solid;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.users-list{
+    list-style-type: none;
+}

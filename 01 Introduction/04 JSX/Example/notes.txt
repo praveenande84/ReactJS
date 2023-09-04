@@ -1,0 +1,19 @@
+JSX
+----
+React JS introduced a new HTML like syntax named JSX to create elements.
+=========================
+normal html:
+-------------
+const element = <h1 className="greeting">Hello World</h1>;
+======================
+The above JSX element compiles :
+
+const elementProps = { className: "greeting", children: "Hello world!" };
+const element = React.createElement("h1", elementProps);
+============================
+Babel
+------
+JSX is not Javascript. we have to convert it to javascript using a code compiler.
+Babel is one such tool.
+Babel is a Javascript compiler that translates JSX into regular Javascript.
+====================

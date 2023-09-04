@@ -1,0 +1,20 @@
+.login-container{
+    border: 20px greenyellow solid;
+    height: 97vh;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button{
+    padding: 10px;
+    margin: 10px;
+    background-color: orangered;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color:#ffffff;
+    cursor: pointer;
+}

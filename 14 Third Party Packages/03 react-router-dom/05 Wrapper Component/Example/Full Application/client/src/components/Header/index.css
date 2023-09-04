@@ -1,0 +1,39 @@
+.header-component{
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-item{
+    margin: 10px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.logout-button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: aqua;
+}
+
+.logo-container{
+    color:blue;
+}

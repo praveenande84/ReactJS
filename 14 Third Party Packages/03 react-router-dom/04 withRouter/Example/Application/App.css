@@ -1,0 +1,10 @@
+.app-body{
+    border: 20px green solid;
+    height:85vh;
+    min-height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:orangered;
+}

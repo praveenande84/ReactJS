@@ -1,0 +1,6 @@
+React Hooks:
+==============
+1) useState() => Add state to Function Components
+2) useEffect() => Execute Logic after the Component render
+3) useContext() => Access the Context value
+============================================
